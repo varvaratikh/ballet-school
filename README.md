@@ -1,3 +1,3 @@
 # In progress ...
 
-### All information will appear later. The project is under development.# ballet-school
+#### All information will appear later. The project is under development.
