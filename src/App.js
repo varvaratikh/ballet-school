@@ -5,6 +5,7 @@ import {InfoPage} from "./pages/info_page/InfoPage";
 import {BecomeBallerina} from "./pages/to_become_ballerina/BecomeBallerina";
 import {Photo} from "./components/photo/Photo";
 import {Choreographers} from "./pages/choreographers/Choreographers";
+import {Numbers} from "./pages/numbers/Numbers";
 
 export const App = () => {
   return (
@@ -14,6 +15,7 @@ export const App = () => {
       <BecomeBallerina/>
       <Photo/>
       <Choreographers/>
+      <Numbers/>
     </div>
   );
 }
