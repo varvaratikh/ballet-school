@@ -7,6 +7,7 @@ import {Photo} from "./components/photo/Photo";
 import {Choreographers} from "./pages/choreographers/Choreographers";
 import {Numbers} from "./pages/numbers/Numbers";
 import {Offer} from "./pages/order/Offer";
+import {Classes} from "./pages/classes/Classes";
 
 export const App = () => {
   return (
@@ -18,6 +19,7 @@ export const App = () => {
       <Choreographers/>
       <Numbers/>
       <Offer/>
+      <Classes/>
     </div>
   );
 }
