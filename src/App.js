@@ -11,6 +11,9 @@ import {Classes} from "./pages/classes/Classes";
 import {OscarWilde} from "./pages/oscar_wilde/OscarWilde";
 import {Contacts} from "./pages/contacts/Contacts";
 import {MapComponent} from "./components/map/MapComponent";
+import {Footer} from "./components/footer/Footer";
+import {Footer1} from "./components/footer/Footer1";
+
 
 export const App = () => {
   return (
@@ -26,6 +29,8 @@ export const App = () => {
       <OscarWilde/>
       <Contacts/>
       <MapComponent/>
+      <Footer1/>
+      <Footer/>
     </div>
   );
 }
