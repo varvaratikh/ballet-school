@@ -8,6 +8,7 @@ import {Choreographers} from "./pages/choreographers/Choreographers";
 import {Numbers} from "./pages/numbers/Numbers";
 import {Offer} from "./pages/order/Offer";
 import {Classes} from "./pages/classes/Classes";
+import {OscarWilde} from "./pages/oscar_wilde/OscarWilde";
 
 export const App = () => {
   return (
@@ -20,6 +21,7 @@ export const App = () => {
       <Numbers/>
       <Offer/>
       <Classes/>
+      <OscarWilde/>
     </div>
   );
 }
