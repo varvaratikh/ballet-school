@@ -10,6 +10,7 @@ import {Offer} from "./pages/order/Offer";
 import {Classes} from "./pages/classes/Classes";
 import {OscarWilde} from "./pages/oscar_wilde/OscarWilde";
 import {Contacts} from "./pages/contacts/Contacts";
+import {MapComponent} from "./components/map/MapComponent";
 
 export const App = () => {
   return (
@@ -24,6 +25,7 @@ export const App = () => {
       <Classes/>
       <OscarWilde/>
       <Contacts/>
+      <MapComponent/>
     </div>
   );
 }
